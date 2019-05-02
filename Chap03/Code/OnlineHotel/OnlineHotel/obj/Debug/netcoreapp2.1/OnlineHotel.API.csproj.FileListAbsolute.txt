@@ -1,0 +1,17 @@
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.API.deps.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.API.runtimeconfig.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.API.runtimeconfig.dev.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.API.dll
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.csprojAssemblyReference.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.csproj.CoreCompileInputs.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.RazorAssemblyInfo.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.RazorAssemblyInfo.cs
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.AssemblyInfoInputs.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.AssemblyInfo.cs
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.RazorTargetAssemblyInfo.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.dll
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.pdb
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.csproj.CopyComplete
+D:\OnlineHotel\OnlineHotel\OnlineHotel\bin\Debug\netcoreapp2.1\OnlineHotel.API.pdb
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.dll
+D:\OnlineHotel\OnlineHotel\OnlineHotel\obj\Debug\netcoreapp2.1\OnlineHotel.API.pdb

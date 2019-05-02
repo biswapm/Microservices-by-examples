@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineHotel.API", "OnlineHotel\OnlineHotel.API.csproj", "{1396D768-1BAD-4DB8-BEC0-10D804E6EBB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineHotel.Infra", "OnlineHotel.Infra\OnlineHotel.Infra.csproj", "{B95CAD7F-FAFD-4B83-A214-6DA087905A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1396D768-1BAD-4DB8-BEC0-10D804E6EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1396D768-1BAD-4DB8-BEC0-10D804E6EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1396D768-1BAD-4DB8-BEC0-10D804E6EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1396D768-1BAD-4DB8-BEC0-10D804E6EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95CAD7F-FAFD-4B83-A214-6DA087905A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95CAD7F-FAFD-4B83-A214-6DA087905A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95CAD7F-FAFD-4B83-A214-6DA087905A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95CAD7F-FAFD-4B83-A214-6DA087905A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C32102D9-ECFD-4A0D-915A-B1B93D2FE356}
+	EndGlobalSection
+EndGlobal

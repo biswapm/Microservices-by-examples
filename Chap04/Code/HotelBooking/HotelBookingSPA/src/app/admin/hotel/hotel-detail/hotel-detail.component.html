@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked">
+      <li class="active"><a >Hotel Details</a></li>
+      <li><a href="#">Hotel Facilities</a></li>
+      <li><a href="admin/hotel/room/1">Room Information</a></li>
+    </ul>
+  </div>
+  <div class="col-md-9">
+      <legend>Hotel Details</legend>
+      <fieldset>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label for="hotelName" class="col-sm-2 control-label">Hotel Name</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" [(ngModel)]="hotelName" id="hotelName" name="hotelName" placeholder="Name of the Hotel" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-9">
+                <textarea class="form-control" rows="10" [(ngModel)]="description" id="description" name="description" placeholder="Hotel Description" required>
+                </textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" (click)='submit()'>Submit</button>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+  </div>
+</div>

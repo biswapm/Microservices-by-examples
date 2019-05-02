@@ -1,0 +1,10 @@
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\obj\Debug\netcoreapp2.1\OnlineHotel.Infra.csproj.CoreCompileInputs.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\obj\Debug\netcoreapp2.1\OnlineHotel.Infra.AssemblyInfoInputs.cache
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\obj\Debug\netcoreapp2.1\OnlineHotel.Infra.AssemblyInfo.cs
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.deps.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.runtimeconfig.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.runtimeconfig.dev.json
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.dll
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\bin\Debug\netcoreapp2.1\OnlineHotel.Infra.pdb
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\obj\Debug\netcoreapp2.1\OnlineHotel.Infra.dll
+D:\OnlineHotel\OnlineHotel\OnlineHotel.Infra\obj\Debug\netcoreapp2.1\OnlineHotel.Infra.pdb

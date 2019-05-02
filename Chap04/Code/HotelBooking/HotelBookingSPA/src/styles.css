@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import '~bootstrap/dist/css/bootstrap.min.css' */
+body{
+    padding-top:80px;
+}
+
+.form-group label, .form-group .form-control, .form-group button, .form-group .input-group
+{
+    /* margin-right: 5px; */
+}

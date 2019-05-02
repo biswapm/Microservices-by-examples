@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col col-md-6 col-md-offset-3">
+    <h3 class="text-center bg-default-light round-box-top" style="margin-bottom: 0px">
+      <i class="fa fa-lock fa-4x"></i>
+    </h3>
+    <div class="bg-default-lighter round-box-bottom">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="password" [(ngModel)]="password" placeholder="Password">
+      </div>
+      <div class="checkbox checkbox-primary">
+          <input id="checkbox2" type="checkbox" checked="">
+          <label for="checkbox2">
+              Remeber Me!
+          </label>
+      </div>
+      <button type="submit" class="btn btn-success" (click)='logIn()'>Submit</button>
+      <button type="submit" class="btn btn-success" (click)='logIn()'>Submit</button>
+    </div>
+    <div class="row top-small-gap">
+      <div class="col col-xs-6">
+        <a href="/register">Register Now!</a>
+      </div>
+      <div class="col col-xs-6 text-right">
+        <a href="/register">Forgot Password?</a>
+      </div>
+    </div>
+  </div>
+</div>

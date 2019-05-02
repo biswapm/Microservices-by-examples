@@ -1,0 +1,83 @@
+<div class="jumbotron text-center">
+  <div class="form-inline">
+    <div class="form-group">
+      <label for="exampleInputName2">Check-In</label>
+      <div class="input-group">
+          <input type="text" class="form-control" #fromDate id="exampleInputAmount" placeholder="DD-MM-YYYY">
+          <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></div>
+        </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">Check-Out</label>
+      <div class="input-group">
+          <input type="text" class="form-control" id="exampleInputAmount" placeholder="DD-MM-YYYY">
+          <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail2">No Of Guest</label>
+        <select class="form-control" id="select">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+      </div>
+    <button type="submit" class="btn btn-primary"> <i class="glyphicon glyphicon-search"></i> Search</button>
+  </div>
+</div>
+
+<h2>Popular Hotels <a href="./" class="btn btn-success pull-right btn-sm">Show All <i class="glyphicon glyphicon-menu-right"></i></a></h2>
+
+<div class="row">
+  <div class="col-md-4" *ngFor="let hotel of hotelList">
+      <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTY1MGYxYzA5MWEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNjUwZjFjMDkxYSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44MDQ2ODc1IiB5PSIxMDUuMSI+MjQyeDIwMDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;"> 
+        <div class="caption"> 
+          <h3>{{hotel.hotelName}}</h3> 
+          <p>
+            {{hotel.hotelName}}
+          </p> 
+          <h4>
+             <strong> Rs. 1560.0</strong>/N
+          </h4>
+          <p>            
+            <a href="/hotels/hotel/{{hotel.hotelId}}" class="btn btn-primary btn-block" role="button">Book Now</a> 
+          </p> 
+        </div> 
+      </div>
+  </div>
+  <!-- <div class="col-md-4">
+      <div class="thumbnail"> 
+        <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTY1MGYxYzA5MWEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNjUwZjFjMDkxYSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44MDQ2ODc1IiB5PSIxMDUuMSI+MjQyeDIwMDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;"> 
+        <div class="caption"> 
+          <h3>Hotel Name</h3> 
+          <p>
+            Address, City Name
+          </p> 
+          <h4>
+             <strong> Rs. 1560.0</strong>/N
+          </h4>
+          <p>            
+            <a href="/hotels/hotel" class="btn btn-primary btn-block" role="button">Book Now</a> 
+          </p> 
+        </div> 
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTY1MGYxYzA5MWEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNjUwZjFjMDkxYSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44MDQ2ODc1IiB5PSIxMDUuMSI+MjQyeDIwMDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;"> 
+        <div class="caption"> 
+          <h3>Hotel Name</h3> 
+          <p>
+            Address, City Name
+          </p> 
+          <h4>
+             <strong> Rs. 1560.0</strong>/N
+          </h4>
+          <p>            
+            <a href="/hotels/hotel" class="btn btn-primary btn-block" role="button">Book Now</a> 
+          </p> 
+        </div> 
+      </div>
+  </div> -->
+</div>

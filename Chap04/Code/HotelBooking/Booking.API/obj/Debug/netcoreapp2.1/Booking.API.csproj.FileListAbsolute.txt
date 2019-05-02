@@ -1,0 +1,14 @@
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\bin\Debug\netcoreapp2.1\Booking.API.deps.json
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\bin\Debug\netcoreapp2.1\Booking.API.runtimeconfig.json
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\bin\Debug\netcoreapp2.1\Booking.API.runtimeconfig.dev.json
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\bin\Debug\netcoreapp2.1\Booking.API.dll
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\bin\Debug\netcoreapp2.1\Booking.API.pdb
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.csprojAssemblyReference.cache
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.csproj.CoreCompileInputs.cache
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.RazorAssemblyInfo.cache
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.RazorAssemblyInfo.cs
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.AssemblyInfoInputs.cache
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.AssemblyInfo.cs
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.RazorTargetAssemblyInfo.cache
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.dll
+C:\Users\biswa\source\repos\HotelBooking\Booking.API\obj\Debug\netcoreapp2.1\Booking.API.pdb

@@ -1,0 +1,81 @@
+<div class="row">
+  <div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="admin/hotel/edit/1">Hotel Details</a></li>
+      <li><a href="#">Hotel Facilities</a></li>
+      <li class="active"><a>Room Information</a></li>
+    </ul>
+  </div>
+  <div class="col-md-9">
+      <legend>Room Details</legend>
+      <fieldset>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label for="roomNumber" class="col-sm-2 control-label">Room Number</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" [(ngModel)]="roomNumber" id="roomNumber" name="roomNumber" placeholder="Room Number" required>
+            </div>
+            <label for="roomType" class="col-sm-2 control-label">Room Type</label>
+            <div class="col-sm-3">
+              <select class="form-control" [(ngModel)]="roomType" id="roomType" name="roomType">
+                <option value="0">-- Select One --</option>
+                <option *ngFor="let roomT of roomTypes" [value]="roomT.id" style="padding: 4px" > {{roomT.name}} </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="noOfGuest" class="col-sm-2 control-label">No Of Guest</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" [(ngModel)]="noOfGuest" id="noOfGuest" name="noOfGuest" placeholder="Number guests allowed" required>
+            </div>
+            <label for="roomRent" class="col-sm-2 control-label">Room Rent</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" [(ngModel)]="roomRent" id="roomRent" name="roomRent" placeholder="Room Rent / night" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-9">
+                <textarea class="form-control" rows="10" [(ngModel)]="description" id="description" name="description" placeholder="Hotel Description" required>
+                </textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-9">
+              <button type="submit" class="btn btn-primary" (click)='submit()'>Submit</button>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+    <h3>Room Details</h3>
+    
+      <table class="table table-responsive">
+        <tr>
+          <th>Id</th>
+          <th>Room No</th>
+          <th>Price</th>
+          <th>No of Guest</th>
+          <th></th>
+        </tr>
+        <tr *ngFor="let room of hotelRooms">
+          <td>
+              {{room.id}}
+          </td>
+          <td>
+              {{room.number}}
+          </td>
+          <td>
+              {{room.price}}
+          </td>
+          <td>
+              {{room.maximumGuests}}
+          </td>
+          <td>
+            <button class="btn btn-xs btn-danger"> Delete </button>
+            <button class="btn btn-xs btn-info" (click)="loadRoom(room)"> Edit </button>
+          </td>
+        </tr>
+      </table>
+    
+  </div>
+</div>

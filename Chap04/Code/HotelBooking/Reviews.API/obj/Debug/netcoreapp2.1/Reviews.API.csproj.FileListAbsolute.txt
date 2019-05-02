@@ -1,0 +1,14 @@
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\bin\Debug\netcoreapp2.1\Reviews.API.deps.json
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\bin\Debug\netcoreapp2.1\Reviews.API.runtimeconfig.json
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\bin\Debug\netcoreapp2.1\Reviews.API.runtimeconfig.dev.json
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\bin\Debug\netcoreapp2.1\Reviews.API.dll
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\bin\Debug\netcoreapp2.1\Reviews.API.pdb
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.csprojAssemblyReference.cache
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.csproj.CoreCompileInputs.cache
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.RazorAssemblyInfo.cache
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.RazorAssemblyInfo.cs
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.AssemblyInfoInputs.cache
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.AssemblyInfo.cs
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.RazorTargetAssemblyInfo.cache
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.dll
+C:\Users\biswa\source\repos\HotelBooking\Reviews.API\obj\Debug\netcoreapp2.1\Reviews.API.pdb
